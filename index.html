@@ -2,12 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" type="text/css" href="style.scss" />
+    <title>Image-Generator</title>
   </head>
-  <body>
-    <div id="app"></div>
+  <body class="container grid">
+    <header>
+      <h1> Image Generator </h1>
+      <div>TOGGLE</div>
+    </header>
+    <main>
+      <article>
+        <canvas id="meme" name="meme" aria-label="meme image" alt="empty meme placeholder" width="640" height="480"></canvas>
+      </article>
+      <nav>
+        <h3>Take photo</h3>
+        <h3>Add text</h3>
+        <h3>Add filter</h3>
+      </nav>
+    </main>
+    <footer>Footer</footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
+
