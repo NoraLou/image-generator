@@ -87,7 +87,7 @@ main {
   a.btn {
     margin-top: 1.25rem;
     color: black;
-    background: cyan;
+    background: var(--link-hover-color);
     border-radius: 2.75rem;
     text-align: center;
     padding: .25rem;
@@ -129,7 +129,7 @@ main {
 
 figure {
   margin: 0;
-  border: solid cyan 1px;
+  border: solid var(--link-hover-color) 1px;
 }
 
 
