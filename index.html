@@ -6,20 +6,28 @@
     <link rel="stylesheet" type="text/css" href="style.scss" />
     <title>Image-Generator</title>
   </head>
-  <body class="container grid">
+  <body>
     <header>
       <h1> Image Generator </h1>
       <div>TOGGLE</div>
     </header>
     <main>
-      <article>
+      <figure>
         <canvas id="meme" name="meme" aria-label="meme image" alt="empty meme placeholder" width="640" height="480"></canvas>
-      </article>
-      <nav>
-        <h3>Take photo</h3>
-        <h3>Add text</h3>
-        <h3>Add filter</h3>
-      </nav>
+      </figure>
+      <sidebar>
+        <nav>
+          <a class="btn">
+            <h3>Take photo</h3>
+          </a>
+          <a class="btn">
+            <h3>Add text</h3>
+          </a>
+          <a class="btn">
+            <h3>Add text</h3>
+          </a>
+        </nav>
+      </sidebar>
     </main>
     <footer>Footer</footer>
     <script type="module" src="/main.js"></script>
