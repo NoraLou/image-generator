@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./assets/pico.css" />
     <link rel="stylesheet" type="text/css" href="style.scss" />
     <title>Image-Generator</title>
   </head>
@@ -18,19 +17,29 @@
       </figure>
       <sidebar>
         <nav>
-          <a class="btn">
+          <a class="btn" id="take-photo">
             <h3>Take photo</h3>
           </a>
+
           <a class="btn" id="add-text">
             <h3>Add text</h3>
+            <div class="step" id="add-text">
+              <div class="modal-content">
+                <input type="text" id="text-top" placeholder="top text" />
+                <input type="text" id="text-bottom" placeholder="bottom text" />
+                <button id="text-save">Save text</button>
+              </div>
+            </div>
           </a>
-          <a class="btn">
+
+          <a class="btn" id="add-filter">
             <h3>Add Filter</h3>
           </a>
+
         </nav>
       </sidebar>
     </main>
-    <footer>Footer</footer>
+    <footer>Footer Footer </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

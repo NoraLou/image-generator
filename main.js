@@ -1,3 +1,4 @@
+import { Modal } from "./src/modal.js";
 
 const memeCanvas = document.getElementById("meme");
 // Create unattached canvas elements
